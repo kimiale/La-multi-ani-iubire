@@ -5,11 +5,12 @@ body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 0;
     padding: 20px;
+    text-align: center;
 }
+
 
 h1 {
     color: purple;
-    text-align: center;
     font-size: 60px;
     background-color: rgb(216, 157, 252);
     padding: 10px 20px;
@@ -20,12 +21,13 @@ h1 {
     font-family: 'Great Vibes', cursive;
 }
 
+
 h2 {
-    text-align: center;
     color: rgb(112, 43, 165);
     font-size: 30px;
-    margin-top: 40px;
+    margin: 40px auto 10px;
 }
+
 
 ul, ol {
     font-size: 18px;
@@ -33,7 +35,9 @@ ul, ol {
     padding: 20px;
     width: fit-content;
     border-radius: 15px;
+    margin: 20px auto;
     box-shadow: 0px 0px 10px rgba(156, 89, 199, 0.2);
+    text-align: left;
 }
 
 ul li, ol li {
@@ -50,10 +54,11 @@ ul li:hover, ol li:hover {
     transform: scale(1.05);
 }
 
+
 table {
     border-collapse: collapse;
-    width: 100%;
-    margin-top: 40px;
+    width: 80%;
+    margin: 40px auto;
     border: 3px solid blueviolet;
     border-radius: 12px;
     overflow: hidden;
@@ -61,36 +66,38 @@ table {
 
 td, th {
     border: 2px solid blueviolet;
-    text-align: left;
+    text-align: center;
     padding: 10px;
-    font-size: 16px;
 }
 
 th {
     background-color: rgb(216, 157, 252);
     font-weight: bold;
-    text-align: center;
 }
 
 .rand {
-    text-align: center;
-    font-size: 18px;
     background-color: rgb(203, 137, 255);
 }
 
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+    margin: 30px auto;
+}
+
 label {
-    display: block;
-    margin-top: 15px;
     font-weight: bold;
     color: rgb(100, 33, 136);
     font-size: 18px;
+    text-align: left;
 }
 
 input, textarea {
-    display: block;
     width: 300px;
     padding: 8px;
-    margin-top: 5px;
     border: 2px solid blueviolet;
     border-radius: 10px;
     font-size: 16px;
@@ -104,13 +111,14 @@ input:focus, textarea:focus {
 }
 
 #buton {
-    width: fit-content;
     background-color: purple;
     color: white;
-    font-size: 18px;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 15px;
     cursor: pointer;
     transition: 0.3s;
-    margin-top: 20px;
+    margin: 20px auto;
 }
 
 #buton:hover {
@@ -119,12 +127,14 @@ input:focus, textarea:focus {
     box-shadow: 0px 0px 12px hotpink;
 }
 
+
 p {
     font-size: 20px;
     color: rgb(88, 25, 120);
     margin-top: 20px;
-    font-weight: 500;
 }
+
+
 #playBtn {
     background-color: #ff4da6;
     color: white;
@@ -133,7 +143,6 @@ p {
     padding: 15px 30px;
     border-radius: 50px;
     cursor: pointer;
-    display: block;
     margin: 30px auto;
     transition: 0.3s ease;
     font-family: 'Great Vibes', cursive;
@@ -143,4 +152,5 @@ p {
     background-color: #ff1a8c;
     transform: scale(1.1);
 }
+
 
